@@ -174,7 +174,8 @@ class PostsController < ApplicationController
 end
 ```
 
-Now, when we do mass assignment, our `Post` model will call a method called `categories_attributes=`. Let's add that method to our model using the `accepts_nested_attributes_for` macro.
+Now, when we do mass assignment, our `Post` model will call a method called `categories_attributes=`. Let's add that method to our model using the `accepts_nested_
+attributes_for` macro.
 
 ```ruby
 class Post < ActiveRecord::Base
